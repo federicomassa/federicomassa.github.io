@@ -429,7 +429,8 @@ body.offcanvas {
 .colorlib-installation,
 .colorlib-services,
 .colorlib-footer,
-.colorlib-contact{
+.colorlib-contact,
+.colorlib-resume{
   padding-top: 2em;
   padding-bottom: 0em;
   clear: both;
@@ -444,7 +445,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-installation,
     .colorlib-services,
-      .colorlib-contact{
+    .colorlib-contact,
+    .colorlib-resume{
       padding-top: 2em;
       padding-bottom: 0em; } }
 
