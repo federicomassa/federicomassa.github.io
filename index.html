@@ -8,9 +8,7 @@
 	<meta name="description" content="Portfolio webpage of Federico Massa" />
 	<meta name="keywords" content="portfolio,website,personal website,github,projects,robotics,artificial intelligence, gaming, physics" />
 	<meta name="author" content="Federico Massa" />
-        
-        <!---------Google adsense------------->
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-5825421732371893",
@@ -18,9 +16,8 @@
   });
 </script>
    
-    <!--quora icon--> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="icon" type="image/png" href="logo.png">
@@ -57,7 +54,7 @@
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/fototessera.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="https://federicomassa.github.io">Federico Massa</a></h1>
-				<p><strong>PhD student in Robotics | Autonomous Driving</strong></p>
+				<p><strong>PhD student in Robotics<br><small>Autonomous Driving Simulation & Perception</small></strong></p>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
@@ -66,7 +63,8 @@
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
                         <li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="experience">Work Experience</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li><br>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+						<li><a href="#" data-nav-section="documents">Documents</a></li><br>
                         <a href="https://www.linkedin.com/in/federico-massa/" class="fa fa-linkedin"></a> &nbsp;&nbsp;&nbsp;&nbsp;
                         <a href="https://github.com/federicomassa" class="fa fa-github"></a> 
 					</ul>
@@ -88,24 +86,34 @@
 								<div class="about-desc">
 								    <h2>About Me</h2>
                                     <hr>
-                                    <p>I have a background in Physics (BSc and MSc), with a final thesis on the software simulation of a particle detector for the ATLAS experiment at CERN, which provided me with strong logical, mathematical and statistical skills. In 2016, I started a collaboration with the Robotics Research Center “E.Piaggio” of the University of Pisa, where I started a Ph.D. in 2017. I am currently part of Roboteam-Italia, one of the teams of Roborace, an autonomous full scale electric racing car competition. I have always had a strong inclination toward software development (and in particular to object oriented design), which led me to delve into the development of the team driving simulator, based on Unreal Engine 4, which the team uses to test the whole perception, planning and control stack and has hardware-in-the-loop capabilities. Within the team, I am also responsible for the perception module, whose goal is to provide mapping and real-time localization of the vehicle based on Lidar sensors.</p>
+									<p>I have an <b>MSc in Physics</b>, with a thesis on the Monte Carlo simulation of a particle detector of the ATLAS experiment at CERN, which provided me with strong logical, mathematical and computer skills.</p> 
+									<p>In 2016, I started a collaboration with the Robotics Research Center “E.Piaggio” of the University of Pisa, where I started a Ph.D. in 2017. I am currently part of Roboteam-Italia, one of the teams of Roborace, an <b>autonomous full scale electric racing car</b> competition.</p>
+									<p>I have always had a strong inclination toward software development (and in particular to object oriented design), which led me to delve into the development of the team <b>driving simulator</b>, based on Unreal Engine 4, which the team uses to test the whole perception, planning and control stack.</p>
 								</div>
 				        </div>
                     </div>
 				    <div class="row">
 				        <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-				            <a href="web-dev/webdev.html" target="_blank">
+				            <a href="ue4/ue4.html" target="_blank">
                                 <div class="services color-2">
-								    <span class="icon2"><i class="fa fa-code"></i></span>
-								    <h3>Web<br> Designing</h3>
+								    <span class="icon2"><i class="fa fa-gamepad"></i></span>
+								    <h3>Unreal<br>Engine 4</h3>
 								</div>
 				            </a>
                         </div>
 				        <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-				            <a href="software-dev/software.html" target="_blank">
+				            <a href="robotics/robotics.html" target="_blank">
                                 <div class="services color-3">
-								    <span class="icon2"><i class="icon-data"></i></span>
-								    <h3>Software Development</h3>
+								    <span class="icon2"><i class="fa fa-robot"></i></span>
+								    <h3>Robotics</h3> 
+								</div>
+				            </a>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+				            <a href="ml/ml.html" target="_blank">
+                                <div class="services color-1">
+				                    <span class="icon2"><i class="fa fa-brain"></i></span>
+				                    <h3>Machine Learning</h3>
 								</div>
 				            </a>
                         </div>
@@ -114,14 +122,6 @@
                                 <div class="services color-4">
 								    <span class="icon2"><i class="icon-android"></i></span>
 								    <h3>Android Applications</h3>
-								</div>
-				            </a>
-                        </div>
-                        <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-				            <a href="ml/ml.html" target="_blank">
-                                <div class="services color-1">
-				                    <span class="icon2"><i class="icon-user"></i></span>
-				                    <h3>Machine Learning</h3>
 								</div>
 				            </a>
                         </div>
@@ -336,7 +336,7 @@
         </div>
 	</section>
 	
-	<section class="colorlib-resume" data-section="resume">
+	<section class="colorlib-documents" data-section="documents">
         <div class="colorlib-narrow-content">
             <div class="row">
                 <div class="col-md-12">
