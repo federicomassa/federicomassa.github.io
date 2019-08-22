@@ -743,7 +743,7 @@ margin-left: 10px;}
 .timeline-tabbed {
   position: relative;
   margin-bottom: 30px;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .timeline-tabbed:before, .timeline-tabbed:after {
@@ -760,16 +760,6 @@ margin-left: 10px;}
 .timeline-tabbed:after {
   clear: both; }
 
-.timeline-tabbed:before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 4px;
-  background: #b4b5b9;
-  top: 20px;
-  bottom: 20px;
-  margin-left: 29px; }
-
 .timeline-tabbed .timeline-entry {
   position: relative;
   margin-top: 5px;
@@ -779,12 +769,15 @@ margin-left: 10px;}
 
 .timeline-tabbed .timeline-entry .timeline-entry-inner {
   position: relative;
-  margin-left: -20px; }
+  margin-left: -20px; 
+  margin-top: 10px;
+}
 
 .timeline-tabbed .timeline-entry .timeline-entry-inner .timeline-icon {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
   background: #ffffff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
