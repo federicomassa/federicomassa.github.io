@@ -651,7 +651,7 @@ margin-left: 10px;}
   position: absolute;
   display: block;
   width: 4px;
-  background: #f2f3f7;
+  background: #c8cbce;
   top: 20px;
   bottom: 20px;
   margin-left: 29px; }
@@ -679,7 +679,7 @@ margin-left: 10px;}
   text-align: center;
   -moz-box-shadow: 0 0 0 5px #f2f3f7;
   -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-  box-shadow: 0 0 0 5px #f2f3f7;
+  box-shadow: 0 0 0 5px #c8cbce;
   line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
@@ -743,7 +743,7 @@ margin-left: 10px;}
 .timeline-tabbed {
   position: relative;
   margin-bottom: 30px;
-  margin-left: 70px;
+  margin-left: 30px;
 }
 
 .timeline-tabbed:before, .timeline-tabbed:after {
@@ -803,7 +803,7 @@ margin-left: 10px;}
     background: #fff;
     width: 20px;
     height: 20px;
-    margin-left: 10px; }
+    margin-left: 0px; }
 
 .timeline-tabbed .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
